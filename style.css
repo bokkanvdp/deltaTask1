@@ -1,0 +1,35 @@
+body{
+    background-color: #ae3dfe;
+}
+h1{
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}.container{
+    display: grid;
+    background: url("bg.png") ;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.btn{
+    padding: 40px 20px;
+    background-color: white;
+
+
+}
+.new{
+
+    background-color: white;
+    animation:pop 2s ease-in-out;
+
+}
+@keyframes pop {
+    100%{
+        background-color: #0ff591;
+    }
+}
